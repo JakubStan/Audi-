@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+<div class="abc"></div>
 <?php include 'menu/menu.php'; ?>
 
 <?php include 'home-part-section/slider/slider.php' ?>

@@ -1,0 +1,327 @@
+.container-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row-padding {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.audi-in-socjal h2 {
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.audi-in-socjal .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.audi-in-socjal .items .col-md-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 400px;
+          flex: 1 0 400px;
+}
+
+.audi-in-socjal .items a {
+  text-decoration: none;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #f2f2f2 !important;
+}
+
+.audi-in-socjal .items a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.audi-in-socjal .items a .box-img img {
+  width: 100%;
+}
+
+.audi-in-socjal .items a .box-content {
+  padding: 20px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: self-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.audi-in-socjal .items a .box-content h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.audi-in-socjal .items a .box-content .social-icon img {
+  height: 40px;
+}
+
+.audi-in-socjal .items a .box-content .social-icon #fb {
+  height: 25px;
+}
+
+.dealers, .dealers-col, .map-col {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+@media (max-width: 1000px) {
+  .dealers .map-col, .dealers-col .map-col, .map-col .map-col {
+    padding-left: 0px !important;
+    padding-top: 5px;
+  }
+}
+
+.dealers .link, .dealers-col .link, .map-col .link {
+  color: black;
+  text-align: center;
+  border: 1px solid;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.dealers .link:hover, .dealers-col .link:hover, .map-col .link:hover {
+  color: #4c4c79;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .dealers .link, .dealers-col .link, .map-col .link {
+    color: black;
+    text-align: center;
+    border: 1px solid;
+    display: inline;
+    border: 1px solid black;
+    padding: 20px;
+  }
+}
+
+.dealers .map-link, .dealers-col .map-link, .map-col .map-link {
+  color: black;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 70px;
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+}
+
+.dealers .map-link:hover, .dealers-col .map-link:hover, .map-col .map-link:hover {
+  color: #4c4c79;
+  text-decoration: none;
+}
+
+.dealers .dealers-col, .dealers-col .dealers-col, .map-col .dealers-col {
+  background-color: #f2f2f2;
+}
+
+.dealers .dealers-col .content, .dealers-col .dealers-col .content, .map-col .dealers-col .content {
+  padding: 20px 55px;
+}
+
+.dealers .dealers-col .content h2, .dealers-col .dealers-col .content h2, .map-col .dealers-col .content h2 {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.dealers .dealers-col .content p, .dealers-col .dealers-col .content p, .map-col .dealers-col .content p {
+  text-align: justify;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+  .dealers .dealers-col .content, .dealers-col .dealers-col .content, .map-col .dealers-col .content {
+    padding: 40px 55px;
+  }
+  .dealers .dealers-col .content h2, .dealers-col .dealers-col .content h2, .map-col .dealers-col .content h2 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .dealers .dealers-col .content p, .dealers-col .dealers-col .content p, .map-col .dealers-col .content p {
+    padding-bottom: 30px;
+  }
+}
+
+.dealers .map, .dealers-col .map, .map-col .map {
+  background-image: url("img/mapa_dealer_v2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .dealers .map, .dealers-col .map, .map-col .map {
+    height: 400px;
+  }
+}
+
+.customer-area h2 {
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.customer-area img {
+  width: 100%;
+}
+
+.customer-area a {
+  color: black;
+}
+
+.customer-area a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.customer-area span {
+  color: red;
+}
+
+.customer-area .padding-bottom {
+  padding-bottom: 40px;
+}
+
+.advertisement {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.advertisement .row {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px;
+}
+
+.advertisement .row .left-0 {
+  padding-left: 0px;
+  padding-right: 2.5px;
+}
+
+.advertisement .row .right-0 {
+  padding-right: 0px;
+  padding-left: 2.5px;
+}
+
+.advertisement .row img {
+  width: 100%;
+  height: 100%;
+}
+
+.advertisement .row .first-col {
+  background: url("../home-part-section/advertisement/img/Q5_1_1277x718_WWW.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advertisement .row .link {
+  position: absolute;
+  left: 60px;
+  color: white;
+  border: 1px solid;
+  padding: 15px 80px;
+  bottom: 50px;
+}
+
+.advertisement .row .link:hover {
+  color: #4c4c79;
+  text-decoration: none;
+}
+
+.advertisement .row .mobile-link {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .advertisement .left-0 {
+    padding-right: 0px !important;
+  }
+  .advertisement .right-0 {
+    padding-left: 0px !important;
+  }
+  .advertisement .row {
+    padding-bottom: 0px !important;
+  }
+  .advertisement .col-sm-12 {
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    height: 500px;
+  }
+  .advertisement .first-col {
+    background: url("../home-part-section/advertisement/img/Q5_1_1277x718_WWW_2.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .advertisement .mobile-link {
+    display: inline !important;
+    border: 1px solid;
+    color: black;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 40px 30px;
+    padding: 20px;
+  }
+  .advertisement .mobile-link:hover {
+    text-decoration: none;
+  }
+  .advertisement .link {
+    display: none;
+  }
+  .advertisement .col-sm-12 {
+    height: 300px !important;
+  }
+  .advertisement .first-col {
+    background: url("../home-part-section/advertisement/img/Q5_1_1277x718_WWW_3.webp") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+}
+
+.slider {
+  background: url("../home-part-section/slider/img/Q5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+/*# sourceMappingURL=home-part-section.css.map */

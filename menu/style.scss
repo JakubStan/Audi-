@@ -1,0 +1,52 @@
+$hover-col:#4c4c79;
+
+.menu{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 55px !important;
+    padding-left: 55px !important;
+
+    img{height: 30px;}
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-bottom:0;
+
+        li{padding: 20px;
+            
+        }
+
+        a{color: black;
+            &:hover{color: $hover-col; text-decoration: none;}
+        }
+        
+    }
+
+    .search{
+
+    a{  color: black;
+            &:hover{ text-decoration: none;}
+    }
+
+    .magnifier{height: 20px;}
+    
+
+    }
+
+    .myAudi{
+        a{  color: black;
+            &:hover{ text-decoration: none;}
+        }
+        img{height: 25px;}
+    }
+
+}

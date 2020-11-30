@@ -1,0 +1,252 @@
+$bg-color:#f2f2f2;
+$hover-col:#4c4c79;
+
+@import "../style/mixins.scss";
+
+
+.container-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row-padding{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.audi-in-socjal{
+ 
+    
+    
+    h2{
+        margin-left: 40px; 
+        padding-bottom: 10px; 
+        }
+
+    .items{
+     
+        display: flex; 
+        flex-flow: row wrap; 
+
+        .col-md-4{display: flex; flex: 1 0 400px; }
+
+        a{
+                text-decoration: none;
+                color: black;
+                display: flex;
+                align-items: stretch;
+                flex-direction: column;
+                flex-grow: 1;
+                background-color: $bg-color !important;
+                &:hover{
+                color: black;
+                text-decoration: none;
+                
+                }
+            
+                .box-img{
+                    img{width: 100%;}
+                }
+
+                .box-content{
+                    
+                    padding: 20px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-items: self-end;
+                    justify-content: space-around;
+                    h3{font-weight: bold; font-size: 25px;}
+                    .social-icon{
+                        img{height: 40px}
+                        #fb{height: 25px;}
+                        }
+                    }   
+        }
+    }
+}
+
+
+.dealers, .dealers-col, .map-col{
+
+    
+    .map-col{ 
+    @media (max-width: $sm) {padding-left: 0px !important; padding-top: 5px; }
+         }
+
+
+    .link{  
+        color: black;
+        text-align: center;
+        border: 1px solid;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        border:1px solid black;
+
+        &:hover{color: #4c4c79; text-decoration: none;}
+        @media (max-width: $sm) {    
+            color: black;
+            text-align: center;
+            border: 1px solid;
+            display: inline;
+            border: 1px solid black;
+            padding: 20px;
+            } 
+        }
+
+    .map-link{
+        color: black;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10px 70px;
+        position: absolute;
+        bottom: 70px;
+        left: 30px;
+        
+
+        &:hover{color: $hover-col; text-decoration: none;}
+        }
+
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    .dealers-col{
+    background-color: $bg-color;
+    .content{
+
+        padding: 20px 55px;
+
+        h2{padding-bottom: 100px; padding-top: 50px;}
+
+        p{text-align: justify; padding-bottom: 100px;}
+
+        @media (max-width: $sm) { 
+            padding: 40px 55px;
+            h2{padding-bottom: 20px; padding-top: 10px;}
+            p{ padding-bottom: 30px;}
+        }
+      
+    
+   
+    }
+    
+}
+.map{
+    background-image: url('img/mapa_dealer_v2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100%;
+
+    @media (max-width: $sm) {  height: 400px; }
+    }
+
+}
+
+
+
+
+
+
+.customer-area{
+    h2{margin-left: 40px; padding-bottom: 10px;}
+    img{width: 100%;}
+    a{ color: black; 
+        &:hover{text-decoration: none; color: black;}
+    }
+    span{ color: red;}
+
+    .padding-bottom{
+        padding-bottom: 40px;
+    }
+
+}
+
+.advertisement{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  
+    .row{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 5px;
+        
+        .left-0{padding-left: 0px; padding-right: 2.5px;}
+        .right-0{padding-right: 0px; padding-left: 2.5px;}
+        img{width: 100%; height: 100%;}
+
+        .first-col{
+            background: url("../home-part-section/advertisement/img/Q5_1_1277x718_WWW.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .link{
+            position: absolute;
+            left: 60px;
+            color: white;
+            border: 1px solid;
+            padding: 15px 80px;
+            bottom: 50px;
+
+            &:hover{color: $hover-col; text-decoration: none;}
+        }
+
+        .mobile-link{display: none;}
+    }
+
+    @media (max-width: $sm) { 
+
+     
+
+        .left-0{padding-right: 0px !important;}
+        .right-0{ padding-left: 0px !important;}
+        .row {padding-bottom: 0px !important;}
+        .col-sm-12{ padding-bottom: 5px !important; padding-top: 5px !important; height: 500px;}
+
+        .first-col{
+            background: url("../home-part-section/advertisement/img/Q5_1_1277x718_WWW_2.jpg" ) !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+     }
+
+
+     @media (max-width: $xs) { 
+        .mobile-link{
+                display: inline !important;
+                border: 1px solid;
+                color: black;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+                width: 100%;
+                margin: 40px 30px;
+                padding: 20px;
+
+                &:hover{text-decoration: none;}
+                   }
+
+            .link{ display: none;}
+
+        .col-sm-12{ height: 300px !important ;}
+        .first-col{
+            background: url("../home-part-section/advertisement/img/Q5_1_1277x718_WWW_3.webp" ) !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+     }
+
+
+}
+
+
+
+.slider{
+    background: url('../home-part-section/slider/img/Q5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
